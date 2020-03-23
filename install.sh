@@ -307,7 +307,7 @@ v2ray_install() {
     fi
     mkdir -p /root/v2ray
     cd /root/v2ray || exit
-    wget -N --no-check-certificate https://install.direct/go.sh
+    wget -N --no-check-certificate https://raw.githubusercontent.com/rukai0712/V2Ray_ws-tls_bash_onekey/master/go.sh
 
     ## wget http://install.direct/go.sh
 
